@@ -6,6 +6,7 @@
     header("Access-Control-Allow-Origin: *");
     header("Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS");
 
+    //This is a example
     include_once 'conexion.php';
 
     $jsonDatos = json_decode(file_get_contents('php://input'));
